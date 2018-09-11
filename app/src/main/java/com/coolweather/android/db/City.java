@@ -18,13 +18,13 @@ public class City extends DataSupport{
     public String getCityName() {
         return cityName;
     }
-    public void setCityName(){
+    public void setCityName(String cityName){
         this.cityName = cityName;
     }
     public int getCityCode(){
         return cityCode;
     }
-    public void setCityCode(){
+    public void setCityCode(int cityCode){
         this.cityCode = cityCode;
     }
 
